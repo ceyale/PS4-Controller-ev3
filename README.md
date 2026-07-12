@@ -13,6 +13,7 @@ This project enables you to control a LEGO EV3 robot with two motors using a PS4
 - **Two Motors** connected to the EV3:
   - Left motor: Port B
   - Right motor: Port C
+<img width="250" height="187" alt="grafik" src="https://github.com/user-attachments/assets/4632b450-a9d0-40c0-9574-31a6dfcded7e" />
 
 ## Features
 
