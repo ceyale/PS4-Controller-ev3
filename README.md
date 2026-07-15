@@ -8,11 +8,11 @@ This Python project enables wireless control of an EV3 robot using a PS4 control
 
 ## Features
 
-- 🎮 **PS4 Controller Support** - Use your PlayStation 4 controller to command the EV3
-- 🤖 **EV3 Robot Control** - Full motor and sensor integration
-- ⚡ **Real-time Response** - Low-latency input processing
-- 🔌 **Wireless Operation** - Control your robot over Bluetooth
-- 🎯 **Intuitive Controls** - Tank-style drive mapping for precise movement
+-  **PS4 Controller Support** - Use your PlayStation 4 controller to command the EV3
+-  **EV3 Robot Control** - Full motor and sensor integration
+-  **Real-time Response** - Low-latency input processing
+-  **Wireless Operation** - Control your robot over Bluetooth
+-  **Intuitive Controls** - Tank-style drive mapping for precise movement
 
 ## Requirements
 
@@ -21,6 +21,8 @@ This Python project enables wireless control of an EV3 robot using a PS4 control
 - PlayStation 4 controller (DualShock 4)
 - EV3 robotics libraries (pybricks or ev3dev)
 - PS4 controller library support
+- <img width="250" height="187" alt="grafik" src="https://github.com/user-attachments/assets/494436f7-76f8-42fc-b449-844df2042bf7" />
+
 
 ## Installation
 
