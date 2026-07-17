@@ -65,10 +65,10 @@ while event:
 
     if ev_type == 1 and code == 313:
         if value == 1:
-            Hoch_runter_motor.dc(10)
+            Hoch_runter_motor.dc(50)
     if ev_type == 1 and code == 312:
         if value == 1:
-            Hoch_runter_motor.dc(-10)
+            Hoch_runter_motor.dc(-50)
 
     # Scale stick positions to -100,100
     forward = scale(right_stick_y, (0,255), (100,-100))
@@ -76,9 +76,10 @@ while event:
 
     # Set motor voltages. If we're steering left, the left motor
     # must run backwards so it has a -left component
-    # It has a forward component for going forward too. 
-    left_motor.dc(forward - left)
-    right_motor.dc(forward + left)
+    # It has a forward component for going forward too.
+    left_motor.dc(int(-1*(forward - left/2)))
+    right_motor.dc(int(forward + left/2))
+
 
     # Finally, read another event
     event = in_file.read(EVENT_SIZE)
