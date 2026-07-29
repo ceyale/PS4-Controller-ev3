@@ -1,6 +1,6 @@
 # PS4 Controller EV3
 
-Control your LEGO EV3 robot using a PlayStation 4 controller!
+Control your LEGO EV3 robot using a  controller!
 
 ## Overview
 
